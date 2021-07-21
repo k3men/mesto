@@ -1,0 +1,7 @@
+.elements {
+    width: 88.125%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 36px;
+}

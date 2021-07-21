@@ -1,0 +1,13 @@
+.popup__save-changes {
+    background-color: #000;
+    border: none;
+    border-radius: 3px;
+    font-style: normal;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    width: 100%;
+    height: 46px;
+    padding: 0;
+}
