@@ -1,7 +1,12 @@
 .element__text {
+    width: calc(100% - 22px);
     font-style: normal;
     line-height: 29px;
     font-size: 24px;
     font-weight: 900;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     color: #000;
+    margin: 0;
 }

@@ -23,6 +23,7 @@
 /* PROFILE */
 
 @import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__personal-data/profile__personal-data.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__info/profile__info.css);
 @import url(../blocks/profile/__title/profile__title.css);
@@ -54,3 +55,7 @@
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__title/popup__titile.css);
 @import url(../blocks/popup/__save-changes/popup__save-changes.css);
+
+/* HOVER-BUTTON */
+
+@import url(../blocks/hover-button/hover-button.css);

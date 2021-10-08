@@ -1,0 +1,13 @@
+.profile__personal-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 622px) {
+    .profile__personal-data {
+        flex-direction: row;
+        width: 60%;
+    }
+}

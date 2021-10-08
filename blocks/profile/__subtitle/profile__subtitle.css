@@ -6,3 +6,11 @@
     text-align: center;
     margin: 0;
 }
+
+@media screen and (min-width: 962px) {
+    .profile__subtitle {
+        line-height: 22px;
+        font-size: 18px;
+        text-align: start;
+    }
+}

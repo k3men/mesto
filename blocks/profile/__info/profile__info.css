@@ -2,6 +2,17 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    max-width: 70%;
     margin-bottom: 36px;
+}
+
+@media screen and (min-width: 622px) {
+    .profile__info {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 962px) {
+    .profile__info {
+        margin: 0 0 0 30px;
+    }
 }
