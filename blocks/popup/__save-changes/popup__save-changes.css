@@ -11,3 +11,11 @@
     height: 46px;
     padding: 0;
 }
+
+@media screen and (min-width: 622px) {
+    .popup__save-changes {
+        line-height: 22px;
+        font-size: 18px;
+        height: 52px;
+    }
+}

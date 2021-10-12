@@ -6,3 +6,10 @@
     color: #000;
     margin: 0;
 }
+
+@media screen and (min-width: 622px) {
+    .popup__title {
+        line-height: 29px;
+        font-size: 24px;
+    }
+}

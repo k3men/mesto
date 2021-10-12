@@ -1,0 +1,12 @@
+.popup__input-container {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 95%;
+}
+
+@media screen and (min-width: 622px) {
+    .popup__input-container {
+        width: 100%;
+    }
+}
