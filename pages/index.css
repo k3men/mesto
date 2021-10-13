@@ -41,7 +41,8 @@
 @import url(../blocks/element/__image/element__image.css);
 @import url(../blocks/element/__description/element__description.css);
 @import url(../blocks/element/__text/element__text.css);
-@import url(../blocks/element/__like-button/element__like-button.css);
+@import url(../blocks/element/__like-checkbox/element__like-checkbox.css);
+@import url(../blocks/element/__pseudo-item/element__pseudo-item.css);
 
 /* FOOTER */
 

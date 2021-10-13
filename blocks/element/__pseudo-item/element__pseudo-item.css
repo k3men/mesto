@@ -1,5 +1,5 @@
-.element__like-button {
-    background-color: rgba(0, 0, 0, 0);
+.element__pseudo-item {
+    background-image: url(../../../images/icons/like.svg);
     background-size: 22px 19px;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,10 +9,6 @@
     padding: 0;
 }
 
-.element__like-button::before {
-    background-image: url(../../../images/icons/like.svg);
-}
-
-.element__like-button::after {
+.element__like-checkbox:checked+.element__pseudo-item {
     background-image: url(../../../images/icons/like-active.svg);
 }
