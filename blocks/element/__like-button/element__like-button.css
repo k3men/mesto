@@ -1,6 +1,5 @@
 .element__like-button {
     background-color: rgba(0, 0, 0, 0);
-    background-image: url(../../../images/icons/like.svg);
     background-size: 22px 19px;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,4 +7,12 @@
     width: 22px;
     height: 19px;
     padding: 0;
+}
+
+.element__like-button::before {
+    background-image: url(../../../images/icons/like.svg);
+}
+
+.element__like-button::after {
+    background-image: url(../../../images/icons/like-active.svg);
 }

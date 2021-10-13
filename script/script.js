@@ -10,8 +10,12 @@ let nameInput = document.getElementById("name_input");
 let jobInput = document.getElementById("job_input");
 
 
-function popupToggle() {
-    popup.classList.toggle('popup_opened');
+function popupOpen() {
+    popup.classList.add('popup_opened');
+}
+
+function popupClose() {
+    popup.classList.remove('popup_opened');
 }
 
 function setPopupInputValue() {
@@ -27,17 +31,17 @@ function setProfileValues() {
 function formSubmitHandler(evt) {
     evt.preventDefault();
     setProfileValues();
-    popupToggle();
+    popupClose();
 }
 
 
 popupOpenBtn.addEventListener('click', function() {
-    popupToggle();
+    popupOpen();
     setPopupInputValue();
 });
 
 popupCloseBtn.addEventListener('click', function() {
-    popupToggle();
+    popupClose();
 });
 
-popupSubmitBtn.addEventListener('click', formSubmitHandler);
+popup.addEventListener('submit', formSubmitHandler);
